@@ -1,0 +1,12 @@
+{
+    "name": "Try C++ in Codespaces",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu", // the default codespaces image
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot",
+                "ms-vscode.cpptools"
+            ]
+        }
+    }
+}
